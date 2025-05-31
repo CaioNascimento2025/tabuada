@@ -5,7 +5,7 @@ janela.title('Seja bem vindo')
 janela.geometry('400x300')
 label = customtkinter.CTkLabel(janela,text = 'De Qual Número quer ver a tabuada')
 label.pack(padx=10,pady=10)
-input_numero = customtkinter.CTkEntry(janela,placeholder_text = 'Escola um número inteiro')
+input_numero = customtkinter.CTkEntry(janela,placeholder_text = 'Escolha um número inteiro')
 input_numero.pack(padx=10,pady=10)
 
 janela_resposta = customtkinter.CTk(fg_color='#000000')
